@@ -1,0 +1,6 @@
+rw [four_eq_succ_three, three_eq_succ_two]
+rw [succ_eq_add_one 2]
+rw [← add_succ 2 1]
+rw [← two_eq_succ_one]
+rfl
+
